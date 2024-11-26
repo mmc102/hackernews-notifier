@@ -23,19 +23,19 @@ A Python-based tool that monitors the Hacker News homepage for a specific search
   ```
   3. **Pip Install**
 
-```bash
-     pip install python-telegram-bot requests
+  ```bash
+  pip install python-telegram-bot requests
   ```
   4. **Create `config.json`**
 
 ```json
 
-{
+  {
     "telegram_bot_token": "your_telegram_bot_token_here",
     "telegram_chat_id": "your_telegram_chat_id_here",
     "search_string": "your_search_string_here",
     "sleep_time": 600
-}
+  }
 ```
 
 5. Run
