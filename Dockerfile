@@ -2,7 +2,7 @@
 FROM python:3.10-slim
 
 # Install dependencies
-RUN pip install requests python-telegram-bot sqlite3
+RUN pip install requests python-telegram-bot
 
 # Add the script to the container
 COPY hackernews_checker.py /app/hackernews_checker.py
