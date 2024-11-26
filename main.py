@@ -7,7 +7,6 @@ from telegram import Bot
 HN_API_URL = "https://hacker-news.firebaseio.com/v0"
 DB_FILE = "matches.db"
 
-SEARCH_STRING = "product hunt"
 
 with open("config.json", "r") as config_file:
     config = json.load(config_file)
@@ -15,7 +14,6 @@ with open("config.json", "r") as config_file:
 TELEGRAM_BOT_TOKEN = config["telegram_bot_token"]
 TELEGRAM_CHAT_ID = config["telegram_chat_id"]
 SEARCH_STRING = config["search_string"]
-
 SLEEP_TIME = config.get("sleep_time", 600)
 
 def setup_database():
