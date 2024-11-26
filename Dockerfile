@@ -5,7 +5,7 @@ FROM python:3.10-slim
 RUN pip install requests python-telegram-bot
 
 # Add the script to the container
-COPY hackernews_checker.py /app/hackernews_checker.py
+COPY main.py /app/hackernews_checker.py
 
 # Set the working directory
 WORKDIR /app
