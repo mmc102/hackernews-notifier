@@ -10,10 +10,10 @@ A Python-based tool that monitors the Hacker News homepage for a specific search
 ## Installation
 
 1. **Clone the Repository**
-   ```bash
+  ```bash
    git clone https://github.com/your-repo/hackernews-scraper.git
    cd hackernews-scraper
-   ```
+  ```
 
 2. **Set Up a Virtual Environment**
 
@@ -34,18 +34,19 @@ A Python-based tool that monitors the Hacker News homepage for a specific search
     "telegram_bot_token": "your_telegram_bot_token_here",
     "telegram_chat_id": "your_telegram_chat_id_here",
     "search_string": "your_search_string_here",
-    "sleep_time": 600 //optional: defaults to 600
+    "sleep_time": 600
 }
 ```
 
 5. Run
-   ```bash
+
+```bash
    python3 main.py
-   ```
+```
 
 ## Optionally run with docker
 
-  ```bash
+```bash
   docker build -t hackernews-scraper .
   docker run -d -v $(pwd)/config.json:/app/config.json hackernews-scraper
-    ```
+```
