@@ -38,10 +38,10 @@ A Python-based tool that monitors the Hacker News homepage for a specific search
   }
 ```
 
-5. Run
+5. **Run**
 
 ```bash
-   python3 main.py
+  python3 main.py
 ```
 
 ## Optionally run with docker
